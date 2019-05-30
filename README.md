@@ -2,16 +2,7 @@
 
 个人观点，仅供参考
 
-- [购物清单](./00.Shopping.md)
-- [备孕](./01.Prepare.md)
-- [出生](./02.Childbirth.md)
-- [第一年](./03.FirstYear.md)
-- [疫苗](./04.Vaccine.md)
-- [常见疾病](./05.Disease.md)
-- [推荐文章](./08.Article.md)
-- [相关参考](./09.References.md)
-- [网站和APP](./10.App.md)
-- [游玩](./11.Places.md)
-- [教育](./12.Education.md)
-- [疑问和主题](./Topics)
-
+- [购物清单](./shopping)
+- [疑问和主题](./topics)
+- [推荐玩耍的地方](./places.md)
+- [参考文档](./references.md)
