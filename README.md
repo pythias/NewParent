@@ -4,7 +4,7 @@
 
 - [购物清单](./shopping)
 - [运动](./sport)
-- [推荐玩耍的地方](./places.md)
+- [轻松带娃的地方](./places.md)
 - [参考文档](./references.md)
 
 ## 话题
