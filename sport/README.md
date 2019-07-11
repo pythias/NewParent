@@ -10,5 +10,5 @@
 - [半岁开始: 游泳](./swimming.md)
 - [会走开始: 登山和徒步](./hiking.md)
 - [2岁半-7岁: 滑步车](./push-bike.md)
-- [4岁开始: 自行车](./bicycle.md)
 - [3岁开始: 滑雪](./skiing.nd)
+- [4岁开始: 自行车](./bicycle.md)
