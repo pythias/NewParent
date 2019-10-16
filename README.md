@@ -6,6 +6,7 @@
 - [运动](./sport)
 - [轻松带娃的地方](./places.md)
 - [参考文档](./references.md)
+- [教育](./education)
 
 ## 话题
 
