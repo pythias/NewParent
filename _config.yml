@@ -13,6 +13,9 @@ minima:
     weibo: 1763952531
     weibo_username: 陈杰要骑车
 
+header_pages:
+ - about.md
+
 # Build settings
 theme: minima
 plugins:

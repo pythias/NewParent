@@ -1,8 +1,16 @@
 language: ruby
-rvm:
-  - 2.6
+cache: bundler
+rvm: 2.4
+
 before_install:
-  - gem install bundler
+  - gem update --system --no-document
+  - gem install bundler --no-document
+
 script:
   - bundle install
   - bundle exec jekyll build
+
+env:
+  matrix:
+    - JEKYLL_VERSION="~> 3.8"
+    - JEKYLL_VERSION="~> 4.0"
