@@ -19,3 +19,10 @@ nohup.out
 .tmproj
 nbproject
 Thumbs.db
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
