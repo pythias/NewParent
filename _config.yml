@@ -13,6 +13,9 @@ minima:
     weibo: 1763952531
     weibo_username: 陈杰要骑车
 
+disqus:
+  shortname: new-parents
+
 header_pages:
  - topic.md
  - sport.md
