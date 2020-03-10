@@ -1,62 +1,6 @@
 {%- assign social = site.minima.social_links -%}
 
 <ul class="social-media-list">
-    {%- if social.facebook -%}
-    <li>
-        <a rel="me" href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}"
-            title="{{ social.facebook | escape }}">
-            <svg class="svg-icon grey">
-                <use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}">
-                </use>
-            </svg>
-            {{ social.facebook }}
-        </a>
-    </li>
-    {%- endif -%}
-    {%- if social.weibo -%}
-    <li>
-        <a rel="me" href="https://weibo.com/u/{{ social.weibo }}" title="{{ social.weibo_username | escape }}">
-            <svg class="svg-icon grey">
-                <use xlink:href="{{ '/assets/weibo.svg#weibo' | relative_url }}">
-                </use>
-            </svg>
-            {{ social.weibo_username }}
-        </a>
-    </li>
-    {%- endif -%}
-    {%- if social.github -%}
-    <li>
-        <a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}"
-            title="{{ social.github | escape }}">
-            <svg class="svg-icon grey">
-                <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}">
-                </use>
-            </svg>
-            {{ social.github }}
-        </a>
-    </li>
-    {%- endif -%}
-    {%- if social.instagram -%}
-    <li>
-        <a rel="me" href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape }}"
-            title="{{ social.instagram | escape }}">
-            <svg class="svg-icon grey">
-                <use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}">
-                </use>
-            </svg>
-            {{ social.instagram }}
-        </a>
-    </li>{%- endif -%}
-    {%- if social.twitter -%}
-    <li>
-        <a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}"
-            title="{{ social.twitter | escape }}">
-            <svg class="svg-icon grey">
-                <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}">
-                </use>
-            </svg>
-            {{ social.twitter }}
-        </a>
-    </li>
-    {%- endif -%}
+  <li><a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>{{ social.github | escape }}</a></li>
+  <li><a rel="me" href="https://weibo.com/u/{{ social.weibo }}" title="{{ social.weibo_username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/weibo.svg#weibo' | relative_url }}"></use></svg>{{ social.weibo_username | escape }}</a></li>
 </ul>
