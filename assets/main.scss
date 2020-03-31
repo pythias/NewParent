@@ -1,0 +1,29 @@
+---
+---
+
+@import "minima";
+
+.image-gallery {
+  display: block;
+  .image-wrapper {
+    float: left;
+    padding: 3px;
+
+    .image {
+      width: 100.1%;
+      width: calc( 100% + 1px );
+      height: 100%;
+    }
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.caption {
+  position: static;
+  color: #AAA;
+}
