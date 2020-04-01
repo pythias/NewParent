@@ -1,12 +1,9 @@
+<h2>{{ include.gallery.title }}</h2>
 <div class="image-gallery">
     {% for picture in include.gallery.pictures %}
-    <div class="image-wrapper">
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/gallery/{{ include.gallery.path }}/{{ picture.original }}" class="image">
-            <img alt="{{ picture.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/gallery/{{ include.gallery.path }}/{{ picture.thumbnail }}" />
-            <div class='caption'>
-                {% if picture.caption %}<p>{{ picture.caption | escape }}</p>{% endif %}
-            </div>
-        </a>
-    </div>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/gallery/{{ include.gallery.path }}/{{ picture.original }}" title="{{ picture.title }}">
+        <img alt="{{ picture.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/gallery/{{ include.gallery.path }}/{{ picture.thumbnail }}" />
+        <span>{{ picture.caption }}</span>
+    </a>
     {% endfor %}
 </div>

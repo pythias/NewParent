@@ -4,26 +4,29 @@
 @import "minima";
 
 .image-gallery {
-  display: block;
-  .image-wrapper {
-    float: left;
-    padding: 3px;
-
-    .image {
-      width: 100.1%;
-      width: calc( 100% + 1px );
-      height: 100%;
-    }
-  }
-
-  &:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
+  overflow: auto;
+  margin-left: -1% !important;
 }
 
-.caption {
-  position: static;
+.image-gallery a {
+  float: left;
+  display: block;
+  margin: 0 0 1% 1%;
+  width: 19%;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.image-gallery a span {
+  display: block;
+  text-overflow: ellipsis;
   color: #AAA;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 3px 0;
+}
+
+.image-gallery a img {
+  width: 100%;
+  display: block;
 }

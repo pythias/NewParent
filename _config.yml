@@ -45,3 +45,7 @@ collections:
   references:
     output: true
     permalink: /reference/:name
+
+exclude:
+  - bin
+  - README.md
