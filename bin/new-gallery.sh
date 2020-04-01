@@ -27,7 +27,7 @@ push() {
     echo "  painted_at: ${datetime}"
     echo "  title: 标题"
     echo "  caption: 说明"
-    echo "  content: 故事内容"
+    echo "  story: 故事内容"
     echo ""
 }
 
@@ -40,11 +40,11 @@ fi
 
 if [[ -d $IMAGE ]]; then
     for f in $IMAGE/*; do
-        push $f $ROOT/assets/gallery/$TARGET
+        push $f $ROOT/gallery/$TARGET
     done
     
 elif [[ -f $IMAGE ]]; then
-    push $IMAGE $ROOT/assets/gallery/$TARGET
+    push $IMAGE $ROOT/gallery/$TARGET
 else
     echo "$IMAGE is not valid"
     exit 1

@@ -1,9 +1,19 @@
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gallery.css" />
+
 <h2>{{ include.gallery.title }}</h2>
-<div class="image-gallery">
+<div class="gallery-image">
     {% for picture in include.gallery.pictures %}
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/gallery/{{ include.gallery.path }}/{{ picture.original }}" title="{{ picture.title }}">
-        <img alt="{{ picture.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/gallery/{{ include.gallery.path }}/{{ picture.thumbnail }}" />
-        <span>{{ picture.caption }}</span>
-    </a>
+    {% assign original = site.url | append: site.baseurl | append: "/gallery/" | append: include.gallery.path | append: "/" | append: picture.original %}
+    {% assign thumbnail = site.url | append: site.baseurl | append: "/gallery/" | append: include.gallery.path | append: "/" | append: picture.thumbnail %}
+    <div class="img-box">
+        <img src="{{thumbnail}}" alt="" />
+        <div class="transparent-box">
+            <div class="caption">
+                <p>{{ picture.caption }}</p>
+                <p>{{ picture.story }}</p>
+            </div>
+            <a href="{{ original }}" title="{{ picture.title }}" target="_blank">查看原图</a>
+        </div>
+    </div>
     {% endfor %}
 </div>

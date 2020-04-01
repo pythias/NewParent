@@ -1,0 +1,83 @@
+---
+---
+
+$height: 174px;
+$width: 174px;
+.gallery-image {
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery-image img {
+  height: $height;
+  width: $width;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 4px;
+  height: $height;
+  width: $width;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: -20px;
+  left: 4px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: $height;
+  width: $width;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box a {
+  opacity: 0.0;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 0.6em;
+}
+
+.img-box:hover a {
+  opacity: 0.6;
+}
+
+.img-box:hover {
+  cursor: default;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+  opacity: 0.8;
+}
