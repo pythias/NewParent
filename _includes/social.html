@@ -1,5 +1,4 @@
 {%- assign social = site.minima.social_links -%}
-
 <ul class="social-media-list">
   <li><a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>{{ social.github | escape }}</a></li>
   <li><a rel="me" href="https://weibo.com/u/{{ social.weibo }}" title="{{ social.weibo_username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/weibo.svg#weibo' | relative_url }}"></use></svg>{{ social.weibo_username | escape }}</a></li>
