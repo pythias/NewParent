@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "env": {
+        "JEKYLL_ENV": "production"
+    }
+}
