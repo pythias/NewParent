@@ -33,19 +33,19 @@ plugins:
 collections:
   topics:
     output: true
-    permalink: /topic/:name
+    permalink: /topic/:name.html
   shoppings:
     output: true
-    permalink: /shopping/:name
+    permalink: /shopping/:name.html
   educations:
     output: true
-    permalink: /education/:name
+    permalink: /education/:name.html
   sports:
     output: true
-    permalink: /sport/:name
+    permalink: /sport/:name.html
   references:
     output: true
-    permalink: /reference/:name
+    permalink: /reference/:name.html
 
 exclude:
   - bin
