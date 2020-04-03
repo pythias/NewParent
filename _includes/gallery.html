@@ -3,8 +3,8 @@
 <h2>{{ include.gallery.title }}</h2>
 <div class="gallery-image">
     {% for picture in include.gallery.pictures %}
-    {% assign original = site.url | append: site.baseurl | append: "/gallery/" | append: include.gallery.path | append: "/" | append: picture.original %}
-    {% assign thumbnail = site.url | append: site.baseurl | append: "/gallery/" | append: include.gallery.path | append: "/" | append: picture.thumbnail %}
+    {% assign original = append: site.baseurl | append: "/gallery/" | append: include.gallery.path | append: "/" | append: picture.original %}
+    {% assign thumbnail = append: site.baseurl | append: "/gallery/" | append: include.gallery.path | append: "/" | append: picture.thumbnail %}
     <div class="img-box">
         <img src="{{thumbnail}}" alt="" />
         <div class="transparent-box">
