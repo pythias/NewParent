@@ -8,6 +8,7 @@ baseurl: ""
 url: "https://c.jie.sh"
 updated_at: 2020-03-10 16:45
 google_analytics: G-VKB8V54Q4T
+baidu_analytics: 8aad084bec1278763ad2c403badf54e5
 
 minima:
   social_links:
@@ -17,6 +18,9 @@ minima:
 
 disqus:
   shortname: new-parents
+
+livere:
+  uid: MTAyMC80OTQ2MC8yNTk1Mg==
 
 header_pages:
  - topic.md

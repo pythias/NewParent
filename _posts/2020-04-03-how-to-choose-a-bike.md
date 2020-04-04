@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-livere
 title: 如何选择一辆儿童自行车
 date: 2020-04-03 19:51:23 +0800
 categories: sport
