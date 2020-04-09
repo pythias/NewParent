@@ -2,7 +2,8 @@
 
 push() {
     image=$1
-    target=$2
+    type=$2
+    target="$ROOT/gallery/$2"
     base_name=$(basename -- "$image")
     extension="${base_name##*.}"
     file_name="${base_name%.*}"
@@ -20,31 +21,34 @@ push() {
 
     cp $image $original
 
-    echo ""
-    echo "- filename: ${file_name}"
-    echo "  original: ${file_name}-original.${extension}"
-    echo "  thumbnail: ${file_name}-thumbnail.${extension}"
-    echo "  painted_at: ${datetime}"
-    echo "  title: 标题"
-    echo "  caption: 说明"
-    echo "  story: 故事内容"
-    echo ""
+    md="${target}/../../../_${type}/${file_name}.md"
+    echo "---" > $md
+    echo "layout: post-livere" >> $md
+    echo "type: ${type}" >> $md
+    echo "name: ${file_name}" >> $md
+    echo "original: ${file_name}-original.${extension}" >> $md
+    echo "thumbnail: ${file_name}-thumbnail.${extension}" >> $md
+    echo "date: ${datetime}" >> $md
+    echo "title: 标题" >> $md
+    echo "---" >> $md
+    echo "" >> $md
+    echo "![{{page.title}}](/gallery/${type}/{{page.original}})" >> $md
+    echo "故事内容" >> $md
 }
 
 ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && cd .. && pwd )"
 IMAGE=$1
 TARGET=$2
 if [[ -z $TARGET ]]; then
-    TARGET="duo/paintings"
+    TARGET="paintings"
 fi
 
 if [[ -d $IMAGE ]]; then
     for f in $IMAGE/*; do
-        push $f $ROOT/gallery/$TARGET
+        push $f $TARGET
     done
-    
 elif [[ -f $IMAGE ]]; then
-    push $IMAGE $ROOT/gallery/$TARGET
+    push $IMAGE $TARGET
 else
     echo "$IMAGE is not valid"
     exit 1

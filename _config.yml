@@ -50,6 +50,9 @@ collections:
   references:
     output: true
     permalink: /reference/:name.html
+  paintings:
+    output: true
+    permalink: /paintings/:year/:month/:day/:name.html
 
 exclude:
   - bin
