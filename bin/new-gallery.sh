@@ -21,7 +21,7 @@ push() {
 
     cp $image $original
 
-    md="${target}/../../../_${type}/${file_name}.md"
+    md="${target}/../../_${type}/${file_name}.md"
     echo "---" > $md
     echo "layout: post-livere" >> $md
     echo "type: ${type}" >> $md
