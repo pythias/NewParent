@@ -11,13 +11,8 @@ title: 作品
     {% for painting in paintings %}
     {% assign thumbnail = site.baseurl | append: "/gallery/" | append: painting.type | append: "/" | append: painting.thumbnail %}
     <div class="img-box">
-        <a href="{{ painting.url }}" title="西游记">
-            <img src="{{ thumbnail }}" alt="{{ painting.title }}"/>
-            <div class="transparent-box">
-                <div class="caption">
-                    <p>{{ painting.title }}</p>
-                </div>
-            </div>
+        <a href="{{ painting.url }}" title="{{ painting.title }}">
+            <img src="{{ thumbnail }}" />
         </a>
     </div>
     {% endfor %}

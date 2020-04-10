@@ -4,7 +4,7 @@ type: paintings
 name: princess-apple
 original: princess-apple-original.jpeg
 thumbnail: princess-apple-thumbnail.jpeg
-date: Thu Apr  7 17:36:13 2020
+date: 2020-04-07 17:36:13
 title: 公主 - 苹果
 ---
 
