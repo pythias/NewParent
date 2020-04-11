@@ -1,6 +1,5 @@
 ---
 layout: post-livere
-type: paintings
 name: well-dressed-girl
 original: well-dressed-girl-original.jpeg
 thumbnail: well-dressed-girl-thumbnail.jpeg
@@ -9,4 +8,3 @@ title: 穿得很华丽的女孩
 ---
 
 ![{{page.title}}](/gallery/paintings/{{page.original}})
-故事内容
