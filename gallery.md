@@ -9,7 +9,7 @@ title: 作品
 <div class="gallery-image">
     {% assign paintings = site.paintings | sort: "date" | reverse %}
     {% for painting in paintings %}
-    {% assign thumbnail = site.baseurl | append: "/gallery/" | append: painting.type | append: "/" | append: painting.thumbnail %}
+    {% assign thumbnail = site.baseurl | append: "/gallery/paintings/" | append: painting.thumbnail %}
     <div class="img-box">
         <a href="{{ painting.url }}" title="{{ painting.title }}">
             <img src="{{ thumbnail }}" />
