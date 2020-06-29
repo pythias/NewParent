@@ -53,6 +53,12 @@ collections:
   paintings:
     output: true
     permalink: /paintings/:year/:month/:day/:name.html
+  calligraphy:
+    output: true
+    permalink: /calligraphy/:year/:month/:day/:name.html
+  photography:
+    output: true
+    permalink: /photography/:year/:month/:day/:name.html
 
 exclude:
   - bin
