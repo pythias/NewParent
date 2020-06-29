@@ -27,22 +27,6 @@ $width: 174px;
   background-color: white;
 }
 
-.caption {
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  -webkit-text-stroke: 0.05em black;
-  text-stroke: 0.05em black;
-}
-
-.transparent-box {
-  height: $height;
-  width: $width;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .img-box a {
   position: absolute;
   right: 0;
