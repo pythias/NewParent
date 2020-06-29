@@ -35,7 +35,7 @@ title: 作品
 <div class="gallery-image">
     {% assign photography = site.photography | sort: "date" | reverse %}
     {% for works in photography %}
-    {% assign thumbnail = site.baseurl | append: "/gallery/calligraphy/" | append: works.thumbnail %}
+    {% assign thumbnail = site.baseurl | append: "/gallery/photography/" | append: works.thumbnail %}
     <div class="img-box">
         <a href="{{ works.url }}" title="{{ works.title }}">
             <img src="{{ thumbnail }}" />
