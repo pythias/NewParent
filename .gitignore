@@ -27,3 +27,6 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 .now
+
+# IDE
+.vscode/
