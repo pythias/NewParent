@@ -12,5 +12,4 @@ script:
 
 env:
   matrix:
-    - JEKYLL_VERSION="~> 3.8"
     - JEKYLL_VERSION="~> 4.0"
