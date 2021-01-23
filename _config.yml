@@ -24,19 +24,19 @@ livere:
 
 header_pages:
  - 
-  url: /topic
+  url: /topic.html
   title: 话题
  - 
-  url: /sport
+  url: /sport.html
   title: 体育
  - 
-  url: /education
+  url: /education.html
   title: 教育
  - 
   url: /gallery
   title: 作品
  - 
-  url: /about
+  url: /about.html
   title: 关于
 
 # Build settings
