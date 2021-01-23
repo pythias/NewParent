@@ -23,11 +23,21 @@ livere:
   uid: MTAyMC80OTQ2MC8yNTk1Mg==
 
 header_pages:
- - topic.md
- - sport.md
- - education.md
- - gallery.md
- - about.md
+ - 
+  url: /topic
+  title: 话题
+ - 
+  url: /sport
+  title: 体育
+ - 
+  url: /education
+  title: 教育
+ - 
+  url: /gallery
+  title: 作品
+ - 
+  url: /about
+  title: 关于
 
 # Build settings
 theme: minima
@@ -59,6 +69,9 @@ sass:
 
 gems:
   - jekyll-paginate-v2
+
+pagination:
+  enabled: true
 
 exclude:
   - Gemfile
