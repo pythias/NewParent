@@ -3,43 +3,16 @@ layout: page
 title: 作品
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gallery.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap-grid.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap-card.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap-images.css" />
 
-<h2>绘画</h2>
-<div class="gallery-image">
-    {% assign paintings = site.paintings | sort: "date" | reverse %}
-    {% for painting in paintings %}
-    {% assign thumbnail = site.baseurl | append: "/gallery/paintings/" | append: painting.thumbnail %}
-    <div class="img-box">
-        <a href="{{ painting.url }}" title="{{ painting.title }}">
-            <img src="{{ thumbnail }}" />
-        </a>
-    </div>
-    {% endfor %}
-</div>
-
-<h2>书法</h2>
-<div class="gallery-image">
-    {% assign calligraphy = site.calligraphy | sort: "date" | reverse %}
-    {% for works in calligraphy %}
-    {% assign thumbnail = site.baseurl | append: "/gallery/calligraphy/" | append: works.thumbnail %}
-    <div class="img-box">
-        <a href="{{ works.url }}" title="{{ works.title }}">
-            <img src="{{ thumbnail }}" />
-        </a>
-    </div>
-    {% endfor %}
-</div>
-
-<h2>摄影</h2>
-<div class="gallery-image">
-    {% assign photography = site.photography | sort: "date" | reverse %}
-    {% for works in photography %}
-    {% assign thumbnail = site.baseurl | append: "/gallery/photography/" | append: works.thumbnail %}
-    <div class="img-box">
-        <a href="{{ works.url }}" title="{{ works.title }}">
-            <img src="{{ thumbnail }}" />
-        </a>
-    </div>
+<div class="row">
+    {% assign works = site.works | sort: "date" | reverse %}
+    {% for painting in works %}
+    {% assign thumbnail = site.baseurl | append: "/gallery/" | append: painting.category | append: "/" | append: painting.thumbnail %}
+    <a class="col-lg-3 col-md-4 col-6 my-3" href="{{ painting.url }}" title="{{ painting.title }}" >
+        <img class="img-fluid card" src="{{ thumbnail }}" />
+    </a>
     {% endfor %}
 </div>

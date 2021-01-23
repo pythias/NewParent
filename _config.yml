@@ -50,16 +50,18 @@ collections:
   references:
     output: true
     permalink: /reference/:name.html
-  paintings:
+  works:
     output: true
-    permalink: /paintings/:year/:month/:day/:name.html
-  calligraphy:
-    output: true
-    permalink: /calligraphy/:year/:month/:day/:name.html
-  photography:
-    output: true
-    permalink: /photography/:year/:month/:day/:name.html
+    permalink: /works/:year/:month/:day/:name.html
+
+sass:
+  sass_dir: _sass
+
+gems:
+  - jekyll-paginate-v2
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - bin
   - README.md

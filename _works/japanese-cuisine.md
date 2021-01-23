@@ -1,6 +1,6 @@
 ---
 layout: post-livere
-type: photography
+category: photography
 name: japanese-cuisine
 original: japanese-cuisine-original.jpg
 thumbnail: japanese-cuisine-thumbnail.jpg
@@ -8,6 +8,6 @@ date: Sat Aug 3 20:56:59 2019
 title: 日本料理
 ---
 
-![{{page.title}}](/gallery/photography/{{page.original}})
+![{{page.title}}](/gallery//{{page.category}}//{{page.original}})
 
 影院门口的日本料理
