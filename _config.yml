@@ -72,6 +72,7 @@ gems:
 
 pagination:
   enabled: true
+  title: ':title - 第:num/:max页'
 
 exclude:
   - Gemfile
