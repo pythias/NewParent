@@ -1,0 +1,12 @@
+---
+layout: post-livere
+category: paintings
+name: my-dad
+original: 2021-Jan/my-dad-original.jpg
+thumbnail: 2021-Jan/my-dad-thumbnail.jpg
+date: Sun Jan 24 22:17:22 2021
+title: 我的爸爸
+---
+
+![{{page.title}}](/gallery/{{page.category}}/{{page.original}})
+故事内容
