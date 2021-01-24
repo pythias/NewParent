@@ -2,13 +2,12 @@
 
 push() {
     image=$1
-    type=$2
-    target="$ROOT/gallery/$2"
+    category=$2
     base_name=$(basename -- "$image")
     extension="${base_name##*.}"
     file_name="${base_name%.*}"
-    original="${target}/${file_name}-original.${extension}"
-    thumbnail="${target}/${file_name}-thumbnail.${extension}"
+    original="${ROOT}/gallery/${category}/${file_name}-original.${extension}"
+    thumbnail="${ROOT}/gallery/${category}/${file_name}-thumbnail.${extension}"
     datetime=`stat -x $image | grep "Modify:" | awk '{print substr($0, 9)}'`
 
     height=`sips -g pixelHeight $image | tail -1 | awk '{print $2}'`
@@ -21,10 +20,10 @@ push() {
 
     cp $image $original
 
-    md="${target}/../../_${type}/${file_name}.md"
+    md="${ROOT}/_works/${file_name}.md"
     echo "---" > $md
     echo "layout: post-livere" >> $md
-    echo "type: ${type}" >> $md
+    echo "category: ${category}" >> $md
     echo "name: ${file_name}" >> $md
     echo "original: ${file_name}-original.${extension}" >> $md
     echo "thumbnail: ${file_name}-thumbnail.${extension}" >> $md
@@ -32,7 +31,7 @@ push() {
     echo "title: 标题" >> $md
     echo "---" >> $md
     echo "" >> $md
-    echo "![{{page.title}}](/gallery/${type}/{{page.original}})" >> $md
+    echo "![{{page.title}}](/gallery/{{page.category}}/{{page.original}})" >> $md
     echo "故事内容" >> $md
 }
 
