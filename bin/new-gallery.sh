@@ -7,7 +7,7 @@ push() {
     extension="${base_name##*.}"
     file_name="${base_name%.*}"
     year=`date -d @"$(stat -c %Y ${image})" +'%Y'`
-    datetime=`date -d @"$(stat -c %Y ${image})"`
+    datetime=`date -d @"$(stat -c %Y ${image})" +'%Y-%m-%d'`
     original="${ROOT}/gallery/${category}/${year}/${file_name}-original.${extension}"
     thumbnail="${ROOT}/gallery/${category}/${year}/${file_name}-thumbnail.${extension}"
 
