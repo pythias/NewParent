@@ -6,8 +6,8 @@ push() {
     base_name=$(basename -- "$image")
     extension="${base_name##*.}"
     file_name="${base_name%.*}"
-    year=`stat -x $image | grep "Modify:" | awk '{print $6"-"$3}'`
-    datetime=`stat -x $image | grep "Modify:" | awk '{print substr($0, 9)}'`
+    year=`date -d @"$(stat -c %Y ${image})" +'%Y'`
+    datetime=`date -d @"$(stat -c %Y ${image})" +'%Y-%m-%d %H:%M:%S'`
     original="${ROOT}/gallery/${category}/${year}/${file_name}-original.${extension}"
     thumbnail="${ROOT}/gallery/${category}/${year}/${file_name}-thumbnail.${extension}"
 

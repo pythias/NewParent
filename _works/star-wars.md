@@ -2,8 +2,8 @@
 layout: post-livere
 category: paintings
 name: star-wars
-original: 2021-Jan/star-wars-original.jpg
-thumbnail: 2021-Jan/star-wars-thumbnail.jpg
+original: 2021/star-wars-original.jpg
+thumbnail: 2021/star-wars-thumbnail.jpg
 date: 2021-01-24 22:27:09 
 title: 星球大战
 ---

@@ -2,8 +2,8 @@
 layout: post-livere
 category: paintings
 name: a-snail
-original: 2021-Jan/a-snail-original.jpg
-thumbnail: 2021-Jan/a-snail-thumbnail.jpg
+original: 2021/a-snail-original.jpg
+thumbnail: 2021/a-snail-thumbnail.jpg
 date: Sun Jan 24 22:17:30 2021
 title: 蜗牛
 ---

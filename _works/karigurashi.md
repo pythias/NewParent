@@ -2,8 +2,8 @@
 layout: post-livere
 category: paintings
 name: karigurashi
-original: 2021-Jan/karigurashi-original.jpg
-thumbnail: 2021-Jan/karigurashi-thumbnail.jpg
+original: 2021/karigurashi-original.jpg
+thumbnail: 2021/karigurashi-thumbnail.jpg
 date: Sun Jan 24 22:37:50 2021
 title: 借东西的小人
 ---

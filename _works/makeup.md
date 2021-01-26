@@ -2,8 +2,8 @@
 layout: post-livere
 category: paintings
 name: makeup
-original: 2021-Jan/makeup-original.jpg
-thumbnail: 2021-Jan/makeup-thumbnail.jpg
+original: 2021/makeup-original.jpg
+thumbnail: 2021/makeup-thumbnail.jpg
 date: Sun Jan 24 22:55:32 2021
 title: 神奇化妆术
 ---
