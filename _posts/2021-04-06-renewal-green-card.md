@@ -34,15 +34,14 @@ categories: blog
 
 国家税务总局北京市税务局个人所得税纳税清单，有三种方式获取
 
-1. 第一种：需要Windows安装一个软件，下载安装[北京市网上税务局（自然人版）](https://etax.beijing.chinatax.gov.cn/images/hlwdsj_wwym/grsdsinstall.html) ，登陆后点击'个人纳税信息查询/网上打印纳税清单'查询导出即可
-2. 第二种：使用上一周期打印的结果，如果有保存
-3. 第三种：去地税局刷身份证打印，地税局列表[http://beijing.chinatax.gov.cn/bjsat/mapNew/mapNew.html](http://beijing.chinatax.gov.cn/bjsat/mapNew/mapNew.html)，公告说明[http://www.chinatax.gov.cn/n840303/c1176443/content.html](http://www.chinatax.gov.cn/n840303/c1176443/content.html)
+1. 第一种：需要Windows安装[北京市网上税务局（自然人版）](https://etax.beijing.chinatax.gov.cn/images/hlwdsj_wwym/grsdsinstall.html) ，登陆后点击'个人纳税信息查询/网上打印纳税清单'，查询导出即可；
+2. 第二种：如上一周期时有保存，可以接着使用；
+3. 第三种：去地税局刷身份证打印，[地税局列表](http://beijing.chinatax.gov.cn/bjsat/mapNew/mapNew.html)；[公告](http://www.chinatax.gov.cn/n840303/c1176443/content.html)。
 
 ### 新版本：2019年以后
 
-1. 个人所得税APP扫码登陆网站[https://etax.chinatax.gov.cn/](https://etax.chinatax.gov.cn/)
-2. 切换到地区的特色应用，点击'纳税记录开具'，比如北京: [https://its.beijing.chinatax.gov.cn:8443/gs/sb/nsqdsqall.html](https://its.beijing.chinatax.gov.cn:8443/gs/sb/nsqdsqall.html)
-3. 查询，结果样例
+1. 使用个人所得税APP扫码[自然人电子税务局](https://etax.chinatax.gov.cn/)；
+2. 切换到特色应用，点击'纳税记录开具'，[北京请点击](https://its.beijing.chinatax.gov.cn:8443/gs/sb/nsqdsqall.html)：
 
 ![完税证明](/assets/images/20210406/2.jpg)
 
@@ -52,24 +51,22 @@ categories: blog
 
 ### 老版本：2018年及以前
 
-同样也有三种方法，细节就不写了
+同样也有三种方法，细节不再赘述
 
 ### 新版本
 
 同完税证明
 
-1. 个人所得税APP扫码登陆网站[https://etax.chinatax.gov.cn/](https://etax.chinatax.gov.cn/)
-2. 切换到地区的特色应用，点击'申报收入证明'，比如北京: [https://its.beijing.chinatax.gov.cn:8443/gs/sb/nsmxlb.html](https://its.beijing.chinatax.gov.cn:8443/gs/sb/nsmxlb.html)
-3. 按年查询下载
+1. 使用个人所得税APP扫码[自然人电子税务局](https://etax.chinatax.gov.cn/)；
+2. 切换到特色应用，点击'申报收入证明'，[北京请点击](https://its.beijing.chinatax.gov.cn:8443/gs/sb/nsmxlb.html)；
+3. 需按年查询下载。
 
 ## 五、社保证明
 
-1. 登陆网站[http://fuwu.rsj.beijing.gov.cn/bjdkhy/sbqycx/sbRights/sbRightsHome](http://fuwu.rsj.beijing.gov.cn/bjdkhy/sbqycx/sbRights/sbRightsHome)
-2. 点击进入'参保人员缴费信息查询'
+1. [北京市人力资源和社会保障局 - 个人登录](http://fuwu.rsj.beijing.gov.cn/bjdkhy/sbqycx/sbRights/sbRightsHome)；
+2. 点击进入'参保人员缴费信息查询'：
 
     ![社保查询](/assets/images/20210406/1.jpg)
-
-3. 查询下载即可
 
 > 其他方式参考网站中的操作手册
 
@@ -77,24 +74,24 @@ categories: blog
 
 ### 先注册电子证书
 
-1. 登陆[学信档案](http://my.chsi.com.cn/archive/index.jsp)
-2. 点击[在线验证报告 - 申请](https://my.chsi.com.cn/archive/bab/index.action)
-3. 填材料得到一个“教育部学历证书电子注册备案表”
+1. 登陆[学信档案](http://my.chsi.com.cn/archive/index.jsp)；
+2. 点击[在线验证报告 - 申请](https://my.chsi.com.cn/archive/bab/index.action)；
+3. 填材料得到一个“教育部学历证书电子注册备案表”：
 
     ![学历证书电子注册备案表](/assets/images/20210406/7.jpg)
 
 ### 再进行认证
 
-1. 登陆[学信网](https://www.chsi.com.cn/wssq/)，同上
-2. 选择[申请认证](https://www.chsi.com.cn/wssq/user/application/reportType.action)
-3. 选择[新申请](https://www.chsi.com.cn/wssq/user/application/operationKeys.action)
-4. 填写各种材料，交钱
+1. 登陆[学信网](https://www.chsi.com.cn/wssq/)，同上；
+2. 选择[申请认证](https://www.chsi.com.cn/wssq/user/application/reportType.action)；
+3. 选择[新申请](https://www.chsi.com.cn/wssq/user/application/operationKeys.action)；
+4. 填写各种材料，交钱，搞定。
 
 ## 七、学位认证
 
-1. 登陆[学位网](http://www.cdgdc.edu.cn/cn/)
-2. 选择[学位认证申请](https://www.chinadegrees.cn/cqva/personal/degreeApply/index.html)
-3. 填写各种信息，发回邮箱
-4. 得到'学位认证报告'
+1. 登陆[学位网](http://www.cdgdc.edu.cn/cn/)；
+2. 选择[学位认证申请](https://www.chinadegrees.cn/cqva/personal/degreeApply/index.html)；
+3. 填写各种信息，发回邮箱；
+4. 得到'学位认证报告'。
 
     ![学位认证报告](/assets/images/20210406/8.jpg)
