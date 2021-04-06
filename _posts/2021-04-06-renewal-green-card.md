@@ -5,7 +5,7 @@ date: 2021-04-06 17:27:00 +0800
 categories: blog
 ---
 
-![北京市工作居住证](/assets/images/20210406/0.png)
+![北京市工作居住证](/assets/images/20210406/cover.jpg)
 
 刚才办理了一下北京市工作居住证的续签，又一次感叹北京市便民的智能水平。为了让更多小伙伴熟悉，写个攻略
 
@@ -44,7 +44,7 @@ categories: blog
 2. 切换到地区的特色应用，点击'纳税记录开具'，比如北京: [https://its.beijing.chinatax.gov.cn:8443/gs/sb/nsqdsqall.html](https://its.beijing.chinatax.gov.cn:8443/gs/sb/nsqdsqall.html)
 3. 查询，结果样例
 
-![完税证明](/assets/images/20210406/2.png)
+![完税证明](/assets/images/20210406/2.jpg)
 
 ## 四、收入证明
 
@@ -67,13 +67,11 @@ categories: blog
 1. 登陆网站[http://fuwu.rsj.beijing.gov.cn/bjdkhy/sbqycx/sbRights/sbRightsHome](http://fuwu.rsj.beijing.gov.cn/bjdkhy/sbqycx/sbRights/sbRightsHome)
 2. 点击进入'参保人员缴费信息查询'
 
-    ![社保查询](/assets/images/20210406/1.png)
+    ![社保查询](/assets/images/20210406/1.jpg)
 
 3. 查询下载即可
 
-    ![操作](/assets/images/20210406/6.png)
-
-4. 其他方式参考网站中的操作手册
+> 其他方式参考网站中的操作手册
 
 ## 六、学历认证
 
@@ -83,7 +81,7 @@ categories: blog
 2. 点击[在线验证报告 - 申请](https://my.chsi.com.cn/archive/bab/index.action)
 3. 填材料得到一个“教育部学历证书电子注册备案表”
 
-    ![学历证书电子注册备案表](/assets/images/20210406/7.png)
+    ![学历证书电子注册备案表](/assets/images/20210406/7.jpg)
 
 ### 再进行认证
 
@@ -99,4 +97,4 @@ categories: blog
 3. 填写各种信息，发回邮箱
 4. 得到'学位认证报告'
 
-    ![学位认证报告](/assets/images/20210406/8.png)
+    ![学位认证报告](/assets/images/20210406/8.jpg)
