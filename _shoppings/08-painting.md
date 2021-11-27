@@ -6,7 +6,7 @@ title: 画画
 >多多现在非常喜欢画画，家里各种画画的颜料，蜡笔，画笔，画纸，画架。。。
 
 NO. | 名称 | 品牌 | 地址 | 备注
---- | --- |  --- | --- | --- | --- 
+--- | --- | --- | --- | ---
 1 | Crayon Rocks 16 Colors in a Muslin Bag | CRAYON ROCKS | [Amazon](https://www.amazon.com/gp/product/B002RBH18Y) | 很Q的小蜡笔，被咬得不成形了
 2 | Primomo 普丽猫 日本进口 安全蜡笔 蛋型 12色 | Primomo | [Amazon](https://www.amazon.cn/gp/product/B06XKTDFR4) | 可水洗
 3 | Primomo 普丽猫 日本进口 安全蜡笔 花型 12色 | Primomo | [Amazon](https://www.amazon.cn/gp/product/B06XKZS652) | 可水洗
