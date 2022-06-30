@@ -1,13 +1,26 @@
 #!/usr/bin/env bash
 
+get_created_at() {
+    image=$1
+    case `uname` in
+        Darwin) 
+        t=$(stat -f ${image})
+        date -r $(stat -f ${image}) +'%Y-%m-%d'
+        ;;
+        *)
+        date -d @"$(stat -c %Y ${image})" +'%Y-%m-%d'
+        ;;
+    esac
+}
+
 push() {
     image=$1
     category=$2
     base_name=$(basename -- "$image")
     extension="${base_name##*.}"
     file_name="${base_name%.*}"
-    year=`date -d @"$(stat -c %Y ${image})" +'%Y'`
-    datetime=`date -d @"$(stat -c %Y ${image})" +'%Y-%m-%d'`
+    year=`get_created_at ${image} | awk -F '-' '{print $1}'`
+    datetime=`get_created_at ${image}`
     original="${ROOT}/gallery/${category}/${year}/${file_name}-original.${extension}"
     thumbnail="${ROOT}/gallery/${category}/${year}/${file_name}-thumbnail.${extension}"
 
@@ -23,7 +36,7 @@ push() {
 
     cp $image $original
 
-    md="${ROOT}/_works/${file_name}.md"
+    md="${ROOT}/_works/${datetime}-${file_name}.md"
     echo "---" > $md
     echo "layout: post-livere" >> $md
     echo "category: ${category}" >> $md
