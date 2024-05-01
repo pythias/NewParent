@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: loneliness
 original: 2022/loneliness-original.jpeg

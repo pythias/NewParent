@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: mushroom-under-the-sky
 original: 2021/mushroom-under-the-sky-original.jpg

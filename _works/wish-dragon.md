@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: wish-dragon
 original: 2021/wish-dragon-original.jpg

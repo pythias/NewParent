@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: black-building
 original: 2021/black-building-original.jpg

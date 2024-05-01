@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: donuts-smile
 original: 2022/donuts-smile-original.jpeg

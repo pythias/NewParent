@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 title: "把育儿攻略改成静态网站"
 date: 2020-03-09 09:36:02 +0800
 categories: blog

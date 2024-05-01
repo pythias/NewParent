@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: cook-by-myself
 original: cook-by-myself-original.jpg

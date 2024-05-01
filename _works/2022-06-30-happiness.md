@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: happiness
 original: 2022/happiness-original.jpeg

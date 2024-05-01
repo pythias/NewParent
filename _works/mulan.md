@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: mulan
 original: 2021/mulan-original.jpg

@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: howls-moving-castle
 original: 2021/howls-moving-castle-original.jpg

@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: mandalorian-boba-fett
 original: 2021/mandalorian-boba-fett-original.jpg

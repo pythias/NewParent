@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: pelican-world
 original: 2022/pelican-world-original.jpeg

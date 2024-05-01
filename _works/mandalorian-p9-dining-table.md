@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: mandalorian-p9-dining-table
 original: 2021/mandalorian-p9-dining-table-original.jpg

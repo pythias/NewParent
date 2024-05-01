@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: mandalorian-p10-eggs
 original: 2021/mandalorian-p10-eggs-original.jpg

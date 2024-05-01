@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: nameless-1
 original: 2021/nameless-1-original.jpg

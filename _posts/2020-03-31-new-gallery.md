@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 title: "添加多多作品集"
 date: 2020-03-31 19:41:22 +0800
 categories: gallery

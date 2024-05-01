@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: mandalorian-bus
 original: 2020/mandalorian-bus-original.jpg

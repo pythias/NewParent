@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: mandalorian-p13
 original: 2021/mandalorian-p13-original.jpg

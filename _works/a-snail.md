@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: a-snail
 original: 2021/a-snail-original.jpg

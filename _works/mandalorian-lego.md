@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: mandalorian-lego
 original: 2021/mandalorian-lego-original.jpg

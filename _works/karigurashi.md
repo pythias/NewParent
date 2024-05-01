@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: karigurashi
 original: 2021/karigurashi-original.jpg

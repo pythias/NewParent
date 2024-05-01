@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: dance-in-the-dark
 original: dance-in-the-dark-original.jpeg

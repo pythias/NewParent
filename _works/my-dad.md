@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: my-dad
 original: 2021/my-dad-original.jpg

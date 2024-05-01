@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: twelve-monkeys
 original: 2021/twelve-monkeys-original.jpg

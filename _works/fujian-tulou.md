@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: fujian-tulou
 original: 2021/fujian-tulou-original.jpg

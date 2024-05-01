@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: happy-birthday-to-aji
 original: happy-birthday-to-aji-original.jpg

@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 title: 如何选购礼物
 date: 2020-08-05 23:33:15 +0800
 categories: blog

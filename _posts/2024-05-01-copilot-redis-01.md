@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 title: "联手Copilot用Rust编写Redis - 第一章"
 description: "联手Copilot用Rust编写的简化版Redis"
 date: 2024-05-01

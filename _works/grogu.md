@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: grogu
 original: 2021/grogu-original.jpg

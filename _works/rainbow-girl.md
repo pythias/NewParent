@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: rainbow-girl
 original: rainbow-girl-original.jpeg

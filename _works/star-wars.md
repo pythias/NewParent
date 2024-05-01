@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: star-wars
 original: 2021/star-wars-original.jpg

@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 title: 如何续签北京市工作居住证
 date: 2021-04-06 17:27:00 +0800
 categories: blog

@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: unicorn
 original: 2020/unicorn-original.jpg

@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: calligraphy
 name: fu
 original: fu-original.jpg

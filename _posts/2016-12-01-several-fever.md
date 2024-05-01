@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 title: "记录两岁多之前的各种发烧事件"
 date: 2016-12-01 10:10:00 +0800
 categories: blog

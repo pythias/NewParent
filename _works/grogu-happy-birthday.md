@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: grogu-happy-birthday
 original: 2021/grogu-happy-birthday-original.jpg

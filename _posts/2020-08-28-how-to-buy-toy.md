@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 title: 购买玩具的注意事项
 date: 2020-08-28 20:18:20 +0800
 categories: blog

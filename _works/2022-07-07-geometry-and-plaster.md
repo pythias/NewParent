@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: geometry-and-plaster
 original: 2022/geometry-and-plaster-original.jpeg

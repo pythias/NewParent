@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: makeup
 original: 2021/makeup-original.jpg

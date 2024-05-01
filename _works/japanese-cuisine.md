@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: photography
 name: japanese-cuisine
 original: japanese-cuisine-original.jpg

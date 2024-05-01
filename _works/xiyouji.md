@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: xiyouji
 original: xiyouji-original.jpg

@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: photography
 name: tower
 original: tower-original.jpg

@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: ocean-up-the-sky
 original: 2021/ocean-up-the-sky-original.jpg

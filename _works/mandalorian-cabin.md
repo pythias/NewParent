@@ -1,5 +1,5 @@
 ---
-layout: post-livere
+layout: post
 category: paintings
 name: mandalorian-cabin
 original: 2021/mandalorian-cabin-original.jpg

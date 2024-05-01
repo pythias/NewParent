@@ -38,7 +38,7 @@ push() {
 
     md="${ROOT}/_works/${datetime}-${file_name}.md"
     echo "---" > $md
-    echo "layout: post-livere" >> $md
+    echo "layout: post" >> $md
     echo "category: ${category}" >> $md
     echo "name: ${file_name}" >> $md
     echo "original: ${year}/${file_name}-original.${extension}" >> $md
