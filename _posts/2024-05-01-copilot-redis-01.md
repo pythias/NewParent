@@ -516,4 +516,5 @@ Response: "+PONG\r\n"
 ## 其他章节
 
 - [开始](/blog/2024/04/30/copilot-redis.html)
-- [第一章](/blog/2024/05/01/copilot-redis-01.html)
+- 第一章
+- [第二章](/blog/2024/05/08/copilot-redis-02.html)
