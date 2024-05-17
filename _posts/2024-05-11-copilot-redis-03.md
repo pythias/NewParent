@@ -314,3 +314,4 @@ match self.result[2].as_str() {
 - [第一章](/blog/2024/05/01/copilot-redis-01.html)
 - [第二章](/blog/2024/05/08/copilot-redis-02.html)
 - 第三章
+- [第四章](/blog/2024/05/17/copilot-redis-04.html)

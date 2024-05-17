@@ -519,3 +519,4 @@ Response: "+PONG\r\n"
 - 第一章
 - [第二章](/blog/2024/05/08/copilot-redis-02.html)
 - [第三章](/blog/2024/05/11/copilot-redis-03.html)
+- [第四章](/blog/2024/05/17/copilot-redis-04.html)

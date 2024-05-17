@@ -226,3 +226,5 @@ Copilot 在这个过程中帮助我完成了一个简单的TCP Server的创建�
 - 开始
 - [第一章](/blog/2024/05/01/copilot-redis-01.html)
 - [第二章](/blog/2024/05/08/copilot-redis-02.html)
+- [第三章](/blog/2024/05/11/copilot-redis-03.html)
+- [第四章](/blog/2024/05/14/copilot-redis-04.html)
