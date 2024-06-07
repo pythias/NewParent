@@ -2,7 +2,7 @@
 layout: post
 title: "帮我发到微博"
 description: "ChatGPT帮我扩展将内容发到微博"
-date: 2024-04-30
+date: 2024-06-07
 
 tags: ["AI", "Copilot", "Chrome", "Extension", "Weibo"]
 categories: blog
