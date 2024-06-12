@@ -323,3 +323,4 @@ let res = Response::SimpleString("PONG".to_string());
 - 第二章
 - [第三章](/blog/2024/05/11/copilot-redis-03.html)
 - [第四章](/blog/2024/05/17/copilot-redis-04.html)
+- [第五章](/blog/2024/06/12/copilot-redis-05.html)
